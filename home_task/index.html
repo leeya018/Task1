@@ -1,0 +1,30 @@
+<html>
+
+<head>
+
+	<title>lee</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="task">
+		<label>Mocup</label>
+		<input id="inputText" type="textInput" placeHolder="Add new task description" maxlength="42">
+		<select id="selectOption">
+			<option value="Urgent">Urgent</option>
+			<option value="Critical">Critical</option>
+			<option value="Normal" selected>Normal</option>
+			<option value="If You Can">If You Can</option>
+		</select>
+		<button onClick="addItem()">add</button>
+		<table id="list"></table>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="functions.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		populateTasks();
+	});
+	</script>
+</body>
+</html>
+
