@@ -1,0 +1,28 @@
+
+#task {
+	margin-top: 2rem;
+	margin-left: 1rem;
+}
+
+#validation {
+	color: red;
+	margin-left: 1rem;
+}
+
+#li1{
+	color:orange;
+}
+
+#li2{
+	color:green;
+}
+
+#li3{
+	color:#3987c9;
+}
+
+hr {
+	border-style: solid;
+	border-width: 0.1rem;
+	margin-bottom: 1rem;
+}
